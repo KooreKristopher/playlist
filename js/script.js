@@ -53,7 +53,9 @@ function addSongInfo(){
    var image = $("#image").val();
    images_urls.push(image);
 }
-
+function clearUserInput() {
+    
+}
 $("#add").click(function() {
     emptySongInfo();
     addSongInfo();
